@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meth</string>
+    <string name="all_songs">All Songs</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="meth">METH</string>
+    <string name="desc">Developed by Yadav106</string>
+</resources>
