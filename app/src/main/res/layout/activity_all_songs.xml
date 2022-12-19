@@ -7,12 +7,29 @@
     tools:context=".AllSongsActivity"
     android:background="#D0F8CA">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is All Songs Activity\nWill Implement later"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:textColor="#2f3540"/>
+        app:cardBackgroundColor="#66D453">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_songs"
+                android:layout_centerInParent="true"
+                android:textSize="25sp"
+                android:padding="10dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topBar"
+        android:padding="10dp"/>
 
 </RelativeLayout>
