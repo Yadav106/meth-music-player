@@ -55,7 +55,7 @@
                     android:layout_height="60dp"
                     app:cardCornerRadius="250dp"
                     android:layout_gravity="center"
-                    app:cardBackgroundColor="#403E3E">
+                    app:cardBackgroundColor="#D0F8CA">
 
                 </androidx.cardview.widget.CardView>
 
@@ -82,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:layout_below="@+id/btnAllSongs"
         android:text="@string/liked_songs"
         android:textColor="@color/black"
