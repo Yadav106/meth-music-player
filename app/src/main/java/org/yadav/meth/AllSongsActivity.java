@@ -47,30 +47,8 @@ public class AllSongsActivity extends AppCompatActivity {
 
         // launch storage permission
         storagePermissionLauncher.launch(permission);
-//        List<Song> songs = initData();
-//        showSongs(songs);
     }
-
-    private List<Song> initData(){
-        List<Song> songs = new ArrayList<>();
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        songs.add(new Song("Sare Jaha se Achha", null, null, 1000000));
-        return  songs;
-    }
-
+    
     private void userResponse() {
         if (ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED){
             // fetch songs
